@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => (
             {translation.translation.label["about-hero-description"]}
           </p>
           <a
-            href="https://docs.google.com/forms/u/0/"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSetuS9NoSRrWJe075z2BJaA3Zs70SZ61v840IovB2xKyQEiug/viewform?usp=sf_link"
             target="_blank"
             rel="noopener noreferrer">
               
