@@ -1,0 +1,9 @@
+{
+  "data": {
+    "id": 1,
+    "title": "Live Demo",
+    "imageUrl": "/assets/events/pastevents/MinHackathon.svg",
+    "description": "Watch a live demonstration of a device getting information stolen via ARP spoofing.",
+    "link":"https://google.com"
+  }
+}

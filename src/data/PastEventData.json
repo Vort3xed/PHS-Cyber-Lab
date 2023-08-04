@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "_id": "1",
+      "title": "Hackathon",
+      "description": "Join us in this hackathon!",
+      "dateTime": "2021-04-23T19:30:00",
+      "tags": [
+        "hackathon"
+      ],
+      "link": "https://google.com",
+      "registrationLink": "",
+      "eventType": "Physical",
+      "imageUrl": "/assets/events/pastevents/MinHackathon.svg"
+    },
+    {
+      "_id": "1",
+      "title": "Hackathon 2",
+      "description": "Join us in this hackathon!",
+      "dateTime": "2021-04-23T19:30:00",
+      "tags": [
+        "hackathon"
+      ],
+      "link": "https://google.com",
+      "registrationLink": "",
+      "eventType": "Physical",
+      "imageUrl": "/assets/events/pastevents/MinHackathon.svg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+@import "./colors.scss";
+
+.nav-link {
+	font-family: "Product Sans Medium";
+}
+
+.navbar-background {
+  background: $light-navbar-background;
+}
+
+.navbar-margin {
+  margin-bottom: 7rem;
+}
+
+.navbar-logo {
+  width: 70px;
+	margin: 0;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.smaller .navbar-logo {
+  width: 50px;
+	margin: 0;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.navbar-items {
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "CVE",
+            "description": "Find vulnerabilities in software here!",
+            "link": "https://cve.mitre.org/cve/search_cve_list.html"
+        },
+        {
+            "id": 2,
+            "title": "Kali Tools",
+            "description": "Find installable Kali Linux tools",
+            "link": "https://www.kali.org/tools/"
+        },
+        {
+            "id": 3,
+            "title": "Kali Linux",
+            "description": "The official Kali Linux website",
+            "link": "https://www.kali.org"
+        },
+        {
+            "id": 4,
+            "title": "OWASP",
+            "description": "Access the OWASP foundation",
+            "link": "https://owasp.org/"
+        },
+        {
+            "id": 5,
+            "title": "Kali Linux Installation",
+            "description": "Download images for VMWare, VirtualBox, Hyper-V, and more",
+            "link": "https://www.kali.org/get-kali/#kali-virtual-machines"
+        },
+        {
+            "id": 6,
+            "title": "Kali Nethunter",
+            "description": "Kali Linux in your pocket!",
+            "link": "https://www.kali.org/get-kali/#kali-mobile"
+        },
+        {
+            "id": 7,
+            "title": "Exploit DB",
+            "description": "",
+            "link": "https://www.exploit-db.com/"
+        },
+        {
+            "id": 8,
+            "title": "Google Dorking",
+            "description": "Sets of search engine queries that can be used to find critical information",
+            "link": "https://www.exploit-db.com/google-hacking-database"
+        },
+        {
+            "id": 9,
+            "title": "Offensive Security",
+            "description": "Creators of Kali!",
+            "link": "https://www.offensive-security.com/"
+        },
+        {
+            "id": 10,
+            "title": "Tails OS",
+            "description": "If you're going to be stupid and go on the dark web, at least be safe while on there",
+            "link": "https://tails.boum.org/"
+        },
+        {
+            "id": 11,
+            "title": "Shodan",
+            "description": "Find vulnerable active servers and cameras here!",
+            "link": "https://www.shodan.io/"
+        }
+    ]
+}

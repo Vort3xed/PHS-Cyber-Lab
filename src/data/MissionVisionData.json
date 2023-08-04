@@ -1,0 +1,20 @@
+{
+	"mission": {
+		"id": 1,
+		"title": "Our Mission",
+		"description": "We aim to expose students to different concepts and fields within computer science to help them discover their interests and passions.",
+		"imageUrl": "/assets/aboutus/mission.jpg"
+	},
+	"vision": {
+		"id": 2,
+		"title": "Our Vision",
+		"description": "To not only provide a platform for students to apply their knowledge and skills to real world problems, but also spread our knowledge to the farther reaches of the community.",
+		"imageUrl": "/assets/aboutus/vision.jpg"
+	},
+	"strategy": {
+		"id": 3,
+		"title": "Our Strategy",
+		"description": "Initiate projects, workshops and competitions to expose club members to various technologies, concepts and ideas.",
+		"imageUrl": "/assets/aboutus/strategy.jpg"
+	}
+}

@@ -1,0 +1,61 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "image": "/assets/code_open.avif",
+        "title":"Metasploit",
+        "presenter":"Agneya",
+        "link":"https://google.com",
+        "date":"7/16/23"
+      },
+      {
+        "id": 2,
+        "image": "/assets/code_open.avif",
+        "title":"Cyberpatriot Training",
+        "presenter":"Agneya",
+        "link":"https://google.com",
+        "date":"7/16/23"
+      },
+      {
+        "id": 3,
+        "image": "/assets/code_open.avif",
+        "title":"Switches and Routers",
+        "presenter":"Agneya",
+        "link":"https://google.com",
+        "date":"7/16/23"
+      },
+      {
+        "id": 4,
+        "image": "/assets/code_open.avif",
+        "title":"Social Engineering Toolkit",
+        "presenter":"Agneya",
+        "link":"https://google.com",
+        "date":"7/16/23"
+      },
+      {
+        "id": 5,
+        "image": "/assets/code_open.avif",
+        "title":"Nikto and OWASP-ZAP",
+        "presenter":"Agneya",
+        "link":"https://google.com",
+        "date":"7/16/23"
+      },
+      {
+        "id": 6,
+        "image": "/assets/code_open.avif",
+        "title":"Spoofing Processes of Trojans",
+        "presenter":"Agneya",
+        "link":"https://google.com",
+        "date":"7/16/23"
+      },
+      {
+        "id": 7,
+        "image": "/assets/code_open.avif",
+        "title":"WAN Technology",
+        "presenter":"Agneya",
+        "link":"https://google.com",
+        "date":"7/16/23"
+      }
+      
+    ]
+  }
