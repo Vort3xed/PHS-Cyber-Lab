@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {translation} from '../../locales/en-US/translation.json';
+import translation from '../../locales/en-US/translation.json';
 
 const NavBar: React.FC = () => {
   const [isNavBarScroll, setNavbarScroll] = useState<boolean>(false);
@@ -56,22 +56,22 @@ const NavBar: React.FC = () => {
             <ul className="navbar-nav m-auto mb-lg-0" />
             <ul className="navbar-nav d-flex me-2 navbar-items">
               <li className="nav-item">
-                <a className="nav-link" href="/">{translation.label["navbar-home"]}</a>
+                <a className="nav-link" href="/">{translation.translation.label["navbar-home"]}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">{translation.label["navbar-about"]}</a>
+                <a className="nav-link" href="/about">{translation.translation.label["navbar-about"]}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/events">{translation.label["navbar-events"]}</a>
+                <a className="nav-link" href="/events">{translation.translation.label["navbar-events"]}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/resources">{translation.label["navbar-resources"]}</a>
+                <a className="nav-link" href="/resources">{translation.translation.label["navbar-resources"]}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://bank.hackclub.com/donations/start/phs-cyber-lab" target="_blank" rel="noopener noreferrer">{translation.label["navbar-donate"]}</a>
+                <a className="nav-link" href="https://bank.hackclub.com/donations/start/phs-cyber-lab" target="_blank" rel="noopener noreferrer">{translation.translation.label["navbar-donate"]}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">{translation.label["navbar-contact-us"]}</a>
+                <a className="nav-link" href="/contact">{translation.translation.label["navbar-contact-us"]}</a>
               </li>
             </ul>
           </div>

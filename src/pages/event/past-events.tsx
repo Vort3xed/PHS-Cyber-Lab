@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-owl-carousel";
 import {CARD_TYPE_EVENT, SLIDER_RESPONSIVE_BREAKPOINTS,} from "../../constants";
 import {Card} from "../../components";
-import {translation} from "../../locales/en-US/translation.json";
+import translation from "../../locales/en-US/translation.json";
 import pastEventList from '../../data/PastEventData.json';
 
 const PastEvents: React.FC = () => {
@@ -36,13 +36,13 @@ const PastEvents: React.FC = () => {
     return (
         <div className="container mt-3">
             <h2 className="item-header">
-                {translation.label["event-past-events-title"]}
+                {translation.translation.label["event-past-events-title"]}
             </h2>
 
             
                     <div className="item-navigation">
                         <div className="view-more-text">
-                            {translation.label["view-more"]}
+                            {translation.translation.label["view-more"]}
                         </div>
                         <div
                             onClick={slidePrev}

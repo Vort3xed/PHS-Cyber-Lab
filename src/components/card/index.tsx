@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 import { ICard } from "../../interfaces/CardInterface";
-import { translation } from "../../locales/en-US/translation.json";
+import translation from "../../locales/en-US/translation.json";
 
 const HtmlToReactParser = require("html-to-react").Parser;
 
@@ -81,7 +81,7 @@ const Card: React.FC<ICard> = ({
                     className="d-flex justify-content-center"
                   >
                     <button className="btn card-btn button">
-                      {translation.button["read-more"]}
+                      {translation.translation.button["read-more"]}
                     </button>
                   </a>
                 </div>
@@ -135,7 +135,7 @@ const Card: React.FC<ICard> = ({
                     className="d-flex justify-content-center"
                   >
                     <button className="btn card-btn button">
-                      {translation.button["more-info"]}
+                      {translation.translation.button["more-info"]}
                     </button>
                   </a>
                 </div>
@@ -189,7 +189,7 @@ const Card: React.FC<ICard> = ({
                     className="d-flex justify-content-center"
                   >
                     <button className="btn card-btn button">
-                      {translation.button["more-info"]}
+                      {translation.translation.button["more-info"]}
                     </button>
                   </a>
                 </div>

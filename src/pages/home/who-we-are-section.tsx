@@ -1,9 +1,9 @@
 import React from "react";
-import {translation} from '../../locales/en-US/translation.json';
+import translation from '../../locales/en-US/translation.json';
 
 const WhatWeDoSection: React.FC = () => (
   <div className="who-we-are-section">
-    <h2 className="text-center header">{translation.label["home-who-we-are-title"]}</h2>
+    <h2 className="text-center header">{translation.translation.label["home-who-we-are-title"]}</h2>
     <div className="container">
       <div className="row mt-5 mb-5">
         <div className="col-md-6 col-sm-12 home-who-are-section-image">
@@ -21,8 +21,8 @@ const WhatWeDoSection: React.FC = () => (
           </div>
         </div>
         <div className="col-md-6 col-sm-12 mt-4">
-          <p className="description top-padding">{translation.label["home-who-we-are-description1"]}</p>
-          <p className="description top-padding">{translation.label["home-who-we-are-description2"]}</p>
+          <p className="description top-padding">{translation.translation.label["home-who-we-are-description1"]}</p>
+          <p className="description top-padding">{translation.translation.label["home-who-we-are-description2"]}</p>
         </div>
       </div>
     </div>

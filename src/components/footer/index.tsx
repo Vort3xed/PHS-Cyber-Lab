@@ -1,5 +1,5 @@
 import React from 'react';
-import {translation} from '../../locales/en-US/translation.json';
+import translation from '../../locales/en-US/translation.json';
 
 const Footer: React.FC = () => (
   <footer className="footer-section mt-3">
@@ -14,11 +14,11 @@ const Footer: React.FC = () => (
                 </a>
               </div>
               <div className="footer-text">
-                <p>{translation.label["footer-description"]}</p>
+                <p>{translation.translation.label["footer-description"]}</p>
                 <div className="row social-media-row mb-3">
                   
                   <div className="col-lg-1 col-md-1 col-sm-1 social-media-col">
-                    <a href={translation.label["instagram-link"]} rel="noreferrer" target="_blank">
+                    <a href={translation.translation.label["instagram-link"]} rel="noreferrer" target="_blank">
                       <i className="bi bi-instagram social-media-icons text-white" />
                     </a>
                   </div>
@@ -37,26 +37,26 @@ const Footer: React.FC = () => (
           <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
             <div className="footer-widget">
               <div className="footer-widget-heading">
-                <h3>{translation.label["footer-useful-link-title"]}</h3>
+                <h3>{translation.translation.label["footer-useful-link-title"]}</h3>
               </div>
               <ul>
                 <li>
-                  <a href="/">{translation.label["footer-useful-link-home"]}</a>
+                  <a href="/">{translation.translation.label["footer-useful-link-home"]}</a>
                 </li>
                 <li>
-                  <a href="/contact">{translation.label["footer-useful-link-contact-us"]}</a>
+                  <a href="/contact">{translation.translation.label["footer-useful-link-contact-us"]}</a>
                 </li>
                 <li>
-                  <a href="/documents/501c3 status.pdf">{translation.label["footer-useful-link-blog"]}</a>
+                  <a href="/documents/501c3 status.pdf">{translation.translation.label["footer-useful-link-blog"]}</a>
                 </li>
                 <li>
-                  <a href="/documents/sponsorship_confirmation.pdf">{translation.label["footer-useful-link-event"]}</a>
+                  <a href="/documents/sponsorship_confirmation.pdf">{translation.translation.label["footer-useful-link-event"]}</a>
                 </li>
                 <li>
-                  <a href="/">{translation.label["footer-useful-link-code-of-conduct"]}</a>
+                  <a href="/">{translation.translation.label["footer-useful-link-code-of-conduct"]}</a>
                 </li>
                 <li>
-                  <a href="/documents/w9_form.pdf">{translation.label["footer-useful-link-brand-assets"]}</a>
+                  <a href="/documents/w9_form.pdf">{translation.translation.label["footer-useful-link-brand-assets"]}</a>
                 </li>
               </ul>
             </div>
@@ -65,10 +65,10 @@ const Footer: React.FC = () => (
           {/* <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
             <div className="footer-widget">
               <div className="footer-widget-heading">
-                <h3>{translation.label["footer-subscribe-title"]}</h3>
+                <h3>{translation.translation.label["footer-subscribe-title"]}</h3>
               </div>
               <div className="footer-text mb-25">
-                <p>{translation.label["footer-subscribe-description"]}</p>
+                <p>{translation.translation.label["footer-subscribe-description"]}</p>
               </div>
               <div className="subscribe-email-section">
                 <form action="#">
@@ -90,8 +90,8 @@ const Footer: React.FC = () => (
           <div className="col-xl-12 col-lg-12 text-center">
             <div className="copyright-text">
               <p>
-                {translation.label["footer-copyright"]} &copy; {translation.label["footer-reserved"]}&nbsp;
-                <a href="/">{translation.label["footer-phscyberlab"]}</a>
+                {translation.translation.label["footer-copyright"]} &copy; {translation.translation.label["footer-reserved"]}&nbsp;
+                <a href="/">{translation.translation.label["footer-phscyberlab"]}</a>
               </p>
             </div>
           </div>

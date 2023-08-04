@@ -1,4 +1,4 @@
-import {translation} from '../../locales/en-US/translation.json';
+import translation from '../../locales/en-US/translation.json';
 import React from "react";
 import { ShowModel } from "../../components/logo-3d-model/ShowModel";
 
@@ -8,16 +8,16 @@ const HeroSection: React.FC = () => (
     <div className="hero-section-bg" />
     <div className="row">
       <div className="col-sm-12 col-md-6 col-lg-6">
-        <h1 className="home-header-title">{translation.label["home-hero-title"]}</h1>
+        <h1 className="home-header-title">{translation.translation.label["home-hero-title"]}</h1>
         <p className="home-header-description">
-        {translation.label["home-hero-description"]}
+        {translation.translation.label["home-hero-description"]}
         </p>
         <a
           href="https://docs.google.com/forms/u/0/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="btn home-primary-btn">{translation.button["join"]}</button>
+          <button className="btn home-primary-btn">{translation.translation.button["join"]}</button>
         </a>
       </div>
 
