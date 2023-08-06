@@ -29,37 +29,12 @@ const HeroSection: React.FC = () => (
       <div className="col-sm-12 col-md-6 col-lg-6 home-3d-model">
         {/* <MyModel /> */}
         {/* <BabylonScene modelPath="assets/Low_Poly_Laptop.gltf" /> */}
+
+        {/* Credits to Sumeet Mahata for putting the club logo on the laptop screen! */}
+
         <ShowModel />
 
       </div>
-
-      {/* <div className="col-sm-12 col-md-6 col-lg-6 home-3d-model">
-        <Canvas shadows camera={{ position: [0, 0, 1.6], fov: 45 }}>
-          <fog attach="fog" args={["#f5f5f5", 0, 40]} />
-          <ambientLight intensity={0.5} />
-          <directionalLight
-            castShadow
-            position={[0, 10, 0]}
-            intensity={0.5}
-          />
-          <pointLight position={[0, 1, 10]} intensity={0.2} />
-          <OrbitControls
-            addEventListener={undefined}
-            hasEventListener={undefined}
-            removeEventListener={undefined}
-            dispatchEvent={undefined}
-            maxDistance={2}
-            minDistance={1.6}
-            enablePan={false}
-            minPolarAngle={Math.PI / 3}
-            maxPolarAngle={Math.PI / 1.6}
-            rotateSpeed={0.1} />
-          <Suspense fallback={null}>
-            <Logo3DModel />
-            <ContactShadows rotation-x={Math.PI / 2} position={[0, -0.4, 0]} opacity={0.55} width={10} height={10} blur={1} far={9} />
-          </Suspense>
-        </Canvas>
-      </div> */}
     </div>
   </div>
 );
