@@ -3,57 +3,57 @@
       {
         "id": 1,
         "image": "/assets/code_open.avif",
-        "title":"Metasploit",
+        "title":"Interest Meeting",
         "presenter":"Agneya",
-        "link":"https://google.com",
-        "date":"7/16/23"
+        "link":"https://docs.google.com/presentation/d/1IyqDxome7tfy9qEMVl14AGyNHW51y6rQVDMkJWVKiYo/edit?usp=sharing",
+        "date":"9/14/23"
       },
       {
         "id": 2,
-        "image": "/assets/code_open.avif",
-        "title":"Cyberpatriot Training",
+        "image": "/assets/sessionCovers/networking1.png",
+        "title":"Networking 1 (Intro)",
         "presenter":"Agneya",
-        "link":"https://google.com",
-        "date":"7/16/23"
+        "link":"https://docs.google.com/presentation/d/1JIF7EWZ8p0JVxeUHhif72RhnGXkuj4wiLa2obPd7QWs/edit?usp=sharing",
+        "date":"9/21/23"
       },
       {
         "id": 3,
         "image": "/assets/code_open.avif",
-        "title":"Switches and Routers",
+        "title":"Networking 1.5 (Checksum Validation)",
         "presenter":"Agneya",
-        "link":"https://google.com",
-        "date":"7/16/23"
+        "link":"https://docs.google.com/presentation/d/18l9sYC_8KO87IxK9lwJ7L6ELpjfn_il9kpQHHfEVxI4/edit?usp=sharing",
+        "date":"9/28/23"
       },
       {
         "id": 4,
-        "image": "/assets/code_open.avif",
-        "title":"Social Engineering Toolkit",
+        "image": "/assets/eventCovers/Cyberpatriot.png",
+        "title":"Introduction to Cyberpatriot",
         "presenter":"Agneya",
-        "link":"https://google.com",
-        "date":"7/16/23"
+        "link":"https://docs.google.com/presentation/d/1H55UHktVF9cpwVS3i3wX01D7UcC9gmOGfFK1PxM_CeE/edit?usp=sharing",
+        "date":"10/5/23"
       },
       {
         "id": 5,
-        "image": "/assets/code_open.avif",
-        "title":"Nikto and OWASP-ZAP",
+        "image": "/assets/sessionCovers/linuxfund.png",
+        "title":"Cyberpatriot: Linux Fundamentals",
         "presenter":"Agneya",
         "link":"https://google.com",
-        "date":"7/16/23"
+        "date":"10/12/23"
       },
       {
         "id": 6,
-        "image": "/assets/code_open.avif",
-        "title":"Spoofing Processes of Trojans",
+        "image": "/assets/sessionCovers/Network_devices.jpg",
+        "title":"Networking 2 (Repeaters, Hubs, and Bridges)",
         "presenter":"Agneya",
-        "link":"https://google.com",
-        "date":"7/16/23"
+        "link":"https://docs.google.com/presentation/d/1zm6SalL1NXk8WGKCPT2GS24b7xdCzwhzZ1GtbdHx3p8/edit?usp=sharing",
+        "date":"10/19/23"
       },
       {
         "id": 7,
-        "image": "/assets/code_open.avif",
-        "title":"WAN Technology",
+        "image": "/assets/sessionCovers/spanningtree.png",
+        "title":"Networking 3 (Spanning Tree Protocol)",
         "presenter":"Agneya",
-        "link":"https://google.com",
+        "link":"https://docs.google.com/presentation/d/1JZdO7bRAZf0M-JYH9l7kkCpqXCMt98nrvCXkucKC7v4/edit?usp=sharing",
         "date":"7/16/23"
       }
       

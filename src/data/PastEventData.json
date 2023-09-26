@@ -2,29 +2,33 @@
   "data": [
     {
       "_id": "1",
-      "title": "Hackathon",
-      "description": "Join us in this hackathon!",
-      "dateTime": "2021-04-23T19:30:00",
+      "title": "CyberPatriot",
+      "description": "AFA's national defense competition!",
+      "dateTime": "2023-10-5",
       "tags": [
-        "hackathon"
+        "defense",
+        "money",
+        "beginner friendly"
       ],
-      "link": "https://google.com",
+      "link": "https://forms.gle/5aEbucTAToJMX7kG7",
       "registrationLink": "",
-      "eventType": "Physical",
-      "imageUrl": "/assets/events/pastevents/MinHackathon.svg"
+      "eventType": "EVENT",
+      "imageUrl": "/assets/eventCovers/Cyberpatriot.png"
     },
     {
-      "_id": "1",
-      "title": "Hackathon 2",
-      "description": "Join us in this hackathon!",
-      "dateTime": "2021-04-23T19:30:00",
+      "_id": "2",
+      "title": "RUSecure CTF",
+      "description": "Join us in this CTF!",
+      "dateTime": "2024-02-29",
       "tags": [
-        "hackathon"
+        "CTF",
+        "money",
+        "beginner friendly"
       ],
-      "link": "https://google.com",
+      "link": "https://rusecurectf.radford.edu",
       "registrationLink": "",
-      "eventType": "Physical",
-      "imageUrl": "/assets/events/pastevents/MinHackathon.svg"
+      "eventType": "EVENT",
+      "imageUrl": "/assets/code_open.avif"
     }
   ]
 }

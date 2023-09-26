@@ -80,7 +80,7 @@ const PastEvents: React.FC = () => {
                                 title={event.title}
                                 dateTime={event.dateTime.toString()}
                                 description={event.description}
-                                // imageUrl={event.imageUrl}
+                                imageUrl={event.imageUrl}
                                 
                                 link={event.link}
                                 tags={event.tags}
