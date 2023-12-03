@@ -11,7 +11,8 @@ const PioneersSection: React.FC = () => (
         <strong>{translation.translation.label["about-pioneers-title"]}</strong>
       </h2>
       <div>
-        <OwlCarousel className="owl-theme" dots={false} loop responsive={SLIDER_RESPONSIVE_BREAKPOINTS}>
+        <OwlCarousel className="owl-theme" dots={false} responsive={SLIDER_RESPONSIVE_BREAKPOINTS}>
+        {/* <OwlCarousel className="owl-theme" dots={false} loop responsive={SLIDER_RESPONSIVE_BREAKPOINTS}> */}
           {pioneers.data.map((pioneer) => (
             <div key={pioneer.id} className="pioneer-section">
               <img src={pioneer.image} className="pioneer-img" alt={pioneer.name} />
