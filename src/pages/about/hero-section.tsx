@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => (
         <div className="col-md-6 header-img">
           <div className="d-flex justify-content-center">
             <img
-              src="/assets/aboutus/aboutus-header-img.jpg"
+              src="/assets/aboutus/everyone.jpg"
               alt="About Us header"
               className="about-us-header-img"
             />
